@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>unit-4-game-crytsal-game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body background="assets/images/vincent-burkhead-147113-unsplash.jpg">
+    <h1>Crystal Collector!</h1>
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>There are four Crystals below. By clicking on a crystal you<br>
+        will add a specific amount of points to your total score.</p>
+
+        <p>You win the game by matching your total score to the random<br>
+        number, you lose the game if your total score goes above<br>
+        the random number.</p>
+
+        <p>The value of each crystal is hidden from you until you<br>
+        click on it.</p>
+
+        <p>Each time when the game starts, the game will change the<br>
+        values of each crystal.</p>
+    </div>
+
+<div class="container">
+   <div class="computerChoice"></div>
+
+    <div class="score">
+       <ul>
+           <li>Wins: <span  id="wins"></span></li>
+           <br>
+           <li>Losses: <span id="losses"></span></li>
+       </ul>
+   </div>
+</div>
+
+<div class="crystals">
+  <img src="assets/images/Topaz%20Gem10.png" class='gemButton' id="yellowBtn">
+  <img src="assets/images/Aquamarine%20Gem05.png"  class='gemButton'  id="blueBtn">
+  <img src="assets/images/Emerald%20Gem05.png"  class='gemButton' id="greenBtn">
+  <img src="assets/images/Ruby%20Gem_5.png"  class='gemButton'  id="redBtn">
+
+</div>
+
+<div class="scoreTallyText">
+    <p>Your Total Score is: </p>
+</div>
+
+    <div class="finalTally"></div>
+   
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

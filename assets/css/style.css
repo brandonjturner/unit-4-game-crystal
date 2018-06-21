@@ -1,0 +1,66 @@
+h1 {
+    background-color: rgb(90, 154, 236);
+    color: antiquewhite;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border-style: ridge;
+}
+
+.instructions {
+    background-color: rgb(168, 195, 226);
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    border-style: groove;
+}
+
+.computerChoice {
+    float: left;
+    background-color: rgb(42, 235, 170);
+    height: 100px;
+    width: 200px;
+    margin-top: 15px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 40px;
+    border-style: groove;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.score {
+    float: left;
+    background-color: rgb(42, 235, 170);
+    height: 100px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 0%;
+    border-style: groove;
+}
+
+.crystals {
+    clear: both;
+    padding-top: 15px;
+}
+
+.scoreTallyText {
+    background-color: brown;
+    color: aliceblue;
+    width: 200px;
+    height: 30px;
+}
+
+.finalTally {
+    background-color: rgb(128, 8, 240);
+    color: aliceblue;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    margin-top: 1px;
+}
+
